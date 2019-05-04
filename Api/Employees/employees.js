@@ -15,15 +15,15 @@ const apiData = {
 
 employees.post('/token', (req, res, next) => {
   request({
-      url: 'https://staging.fyle.in/api/oauth/token'
+      url: 'https://staging.fyle.in/api/oauth/token',
+      body: apiData,
+      headers: {'content-type' : 'application/json'}
     }).pipe(res)
 })
 
 employees.get('/employees', (req, res, next) => {
     request({
-        url: 'https://staging.fyle.in/api/tpa/v1/employees',
-        body: apiData,
-        headers: {'content-type' : 'application/json'}
+        url: 'https://staging.fyle.in/api/tpa/v1/employees'
       }).pipe(res)
 })
 
