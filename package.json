@@ -1,0 +1,30 @@
+{
+  "name": "fyle-sdk-node",
+  "version": "1.0.0",
+  "description": "Fyle",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test || true",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodek-sleuth/fyle-sdk-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodek-sleuth/fyle-sdk-node/issues"
+  },
+  "homepage": "https://github.com/kodek-sleuth/fyle-sdk-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.0",
+    "request": "^2.88.0",
+    "requests": "^0.2.2",
+    "swagger-jsdoc": "^3.2.9",
+    "swagger-ui-express": "^4.0.2"
+  }
+}
