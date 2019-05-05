@@ -25,7 +25,7 @@ To Use the.
 
 3. Install [POSTMAN](www.postman.com) to consume all endpoints
 
-4. npm start in commandline to start the application
+4. Enter npm start in commandline to start the application
 
 5. Application by default runs on localhost port 4000
 
@@ -48,11 +48,23 @@ Copy and Paste this in POSTMAN -> localhost:3000/api/employees and Set the metho
 - Reports
 - Refunds
 
-## Table of a request below
+## Table of requests below
 
 |  Method  |  Endpoint  |  Task  |
 |  --- |  --- |  ---  |
 |  `GET`  |  `/api/employees`  |  `Get Employees`  |
+|  `GET`  |  `/api/expenses`  |  `Get Expenses`  |
+|  `GET`  |  `/api/refunds`  |  `Get Refunds`  |
+|  `GET`  |  `/api/exports`  |  `Get Exports`  |
+|  `GET`  |  `/api/costcentres`  |  `Get CostCentres`  |
+|  `GET`  |  `/api/projects`  |  `Get Projects`  |
+|  `GET`  |  `/api/advances`  |  `Get Advances`  |
+|  `GET`  |  `/api/categories`  |  `Get Categories`  |
+|  `GET`  |  `/api/hbc`  |  `Get HotelBookCanc`  |
+|  `GET`  |  `/api/tbc`  |  `Get TransBookCanc`  |
+|  `GET`  |  `/api/hotelbookings`  |  `Get hotelbookings`  |
+|  `GET`  |  `/api/reimbursements`  |  `Get Reimbursements`  |
+|  `GET`  |  `/api/hotelrequest`  |  `Get HotelRequests`  |
 
 ## License
 
