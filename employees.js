@@ -1,7 +1,3 @@
-const express = require('express');
-
-const employees = express.Router()
-
 const request = require('request');
 
 const api_headers = {Authorization: 'Bearer Token'};
