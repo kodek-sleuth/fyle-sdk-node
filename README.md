@@ -27,11 +27,11 @@ To Use the.
 
 4. Enter npm start in commandline to start the application
 
-5. Application by default runs on localhost port 4000
+5. Application by default the app runs on the url 
 
 
 ### To Get a list of all Employees (with all available details for Employee)
-Copy and Paste this in POSTMAN -> localhost:3000/api/employees and Set the method to GET
+Copy and Paste this in POSTMAN -> url and Set the method to GET/POST
 
 ## Services
 - Advances

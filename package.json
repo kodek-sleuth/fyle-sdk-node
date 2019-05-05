@@ -2,10 +2,10 @@
   "name": "fyle-sdk-node",
   "version": "1.0.0",
   "description": "Fyle",
-  "main": "server.js",
+  "main": "employees.js",
   "scripts": {
     "test": "mocha test || true",
-    "start": "nodemon server.js"
+    "start": "nodemon employees.js"
   },
   "repository": {
     "type": "git",

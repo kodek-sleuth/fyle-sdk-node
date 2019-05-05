@@ -13,7 +13,7 @@ const apiData = {
   client_secret: process.env.CLIENT_SECRET
 }
 
-exports.getAuthToken = (req, res, next) => {
+const getAuthToken = () => {
 
     let options = {
         url: 'https://staging.fyle.in/api/oauth/token',
@@ -28,14 +28,16 @@ exports.getAuthToken = (req, res, next) => {
         if (!error && response.statusCode == 200)
         {
             let info = body;
-            console.log(body);
+            console.log(body.url);
         }
     };
 
-    request.post(options, callback).pipe(res);
+    request.post(options, callback);
 };
 
-exports.getEmployees = (req, res, next) => {
+getAuthToken();
+
+const getEmployees = () => {
     let options = {
         url: 'https://staging.fyle.in/api/tpa/v1/employees'
     };
@@ -52,5 +54,7 @@ exports.getEmployees = (req, res, next) => {
         }   
     };
 
-    request.get(options, callback).pipe(res);
+    request.get(options, callback);
 };
+
+getEmployees();
