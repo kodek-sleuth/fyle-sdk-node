@@ -37,7 +37,6 @@ app.use((error, req, res, next) => {
     // Displaying The Error Message To User/Console
     res.status(error.status || 500);
     res.json({
-       
         Error: error.message
     });
 });
