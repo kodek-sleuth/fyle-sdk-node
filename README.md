@@ -33,6 +33,21 @@ To Use the.
 ### To Get a list of all Employees (with all available details for Employee)
 Copy and Paste this in POSTMAN -> localhost:3000/api/employees and Set the method to GET
 
+## Services
+- Advances
+- BalanceTransfers
+- Categories
+- Cost Centres
+- Employees
+- Trip Requests
+- Projects
+- TransportationBookingCancellations
+- Reimbursements
+- HotelBookingCancellations
+- Expenses
+- Reports
+- Refunds
+
 ## Table of a request below
 
 |  Method  |  Endpoint  |  Task  |
